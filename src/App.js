@@ -5,7 +5,7 @@ import Box from './components/Box';
 
 function App() {
     //state lifted => components can share data
-    //list of all the boxes objects added by client inputs
+    //list of all the box objects added by client inputs
     const[allBoxes, setAllBoxes] = useState([])
 
     return (
